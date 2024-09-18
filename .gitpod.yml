@@ -1,7 +1,8 @@
 tasks:
   - name: Install quarto
     command: |
-    wget https://quarto.org/download/latest/quarto-linux-amd64.deb
-    sudo dpkg -i quarto-linux-amd64.deb
-    rm quarto-linux-amd64.deb
-    quarto check all
+      wget https://quarto.org/download/latest/quarto-linux-amd64.deb
+      sudo dpkg -i quarto-linux-amd64.deb
+      rm quarto-linux-amd64.deb
+      quarto check all
+    
